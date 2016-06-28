@@ -16,8 +16,8 @@ import java.util.List;
  * This implementation's based on the original {@link graphql.execution.batched.UnbatchedDataFetcher}
  * to add support for unbatched data fetcher returning Rx Observable.
  * 
- * @author Hadrien Beaufils <hadrien.beaufils@quicksign.com>
- * @date 2016.06.17
+ * @author <a href="mailto:hadrien.beaufils@quicksign.com">Hadrien Beaufils</a>
+ * created on 2016.06.17
  */
 public class UnbatchedDataFetcher implements BatchedDataFetcher {
 

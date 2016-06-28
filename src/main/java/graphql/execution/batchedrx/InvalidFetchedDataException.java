@@ -7,8 +7,8 @@ import graphql.language.SourceLocation;
 import java.util.List;
 
 /**
- * @author Hadrien Beaufils <hadrien.beaufils@quicksign.com>
- * @date 2016.06.08
+ * @author <a href="mailto:hadrien.beaufils@quicksign.com">Hadrien Beaufils</a>
+ * created on 2016.06.08
  */
 public class InvalidFetchedDataException implements GraphQLError {
 

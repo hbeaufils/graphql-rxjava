@@ -7,8 +7,8 @@ import java.util.List;
 /**
  * Wrapper for execution result.
  * 
- * @author Hadrien Beaufils <hadrien.beaufils@quicksign.com>
- * @date 2016.05.28
+ * @author <a href="mailto:hadrien.beaufils@quicksign.com">Hadrien Beaufils</a>
+ * created on 2016.05.28
  */
 public class BatchedRxExecutionResultData {
 

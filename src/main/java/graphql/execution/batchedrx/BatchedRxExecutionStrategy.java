@@ -29,8 +29,8 @@ import static java.util.Collections.singletonList;
  *
  * Batched and unbatched data fetcher are supported, and both can return direct data or Observable.
  * 
- * @author Hadrien Beaufils <hadrien.beaufils@quicksign.com>
- * @date 2016.05.28
+ * @author <a href="mailto:hadrien.beaufils@quicksign.com">Hadrien Beaufils</a>
+ * created on 2016.05.28
  */
 public class BatchedRxExecutionStrategy extends ExecutionStrategy {
 
