@@ -1,6 +1,7 @@
 .idea
 .gradle
 build
+outputs
 
 graphql-rxjava.iml
 
