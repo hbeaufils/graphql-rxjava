@@ -20,6 +20,7 @@ if [ -f /.dockerinit ] || [ -f /.dockerenv ]; then
     set -e
 
     cd /data
+    ls -lA
 
     # Link cache folders
     ln -s /cache/graphql-rxjava/gradle/ /root/.gradle
@@ -55,6 +56,13 @@ else
 
     # Delete data container and its volume (-v)
     docker rm -v $OUTPUT_ID
+    
+    # Display final result
+    ls -lA
+    
+    if [[ -d ./outputs ]]; then
+        ls -lA ./outputs
+    fi
 fi
 
 # To debug
