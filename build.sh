@@ -25,7 +25,7 @@ if [ -f /.dockerinit ] || [ -f /.dockerenv ]; then
     # Link cache folders
     ln -s /cache/graphql-rxjava/gradle/ /root/.gradle
     
-    ./gradlew assemble -PskipSignArchives
+    ./gradlew build -PskipSignArchives
 
 else
     echo
@@ -58,10 +58,13 @@ else
     docker rm -v $OUTPUT_ID
     
     # Display final result
+    
     ls -lA
     
     if [[ -d ./outputs ]]; then
         ls -lA ./outputs
+    else
+        echo "Error: no 'outputs' folder was created"
     fi
 fi
 
